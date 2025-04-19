@@ -4,7 +4,7 @@ import openai
 # Azure OpenAI Settings (replace these with your actual values)
 client = openai.AzureOpenAI(
     api_key="2ECNOOTYioOVf64YP4LVCIynSE72q9dDymTBbUBx2FTbgrxENqEgJQQJ99BDACYeBjFXJ3w3AAAAACOGsfZO",
-    azure_endpoint="https://chatbotYadhu.openai.azure.com",
+    azure_endpoint="https://ai-project1840670094895.openai.azure.com/",
     api_version="2023-07-01-preview"
 )
 deployment_name = "gpt-4.1"  # This should be your Azure deployment name
